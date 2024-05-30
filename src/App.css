@@ -1,4 +1,4 @@
-/* General Styles */
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -13,10 +13,6 @@ ul {
   list-style-type: none;
   padding: 0;
 }
-
-/* button {
-  margin-left: 10px;
-} */
 
 /* Layout */
 .container {
@@ -37,7 +33,6 @@ ul {
 
 /* Section Styles */
 .to-do {
-  /* background-color: #e6f7ff; */
   text-align: center;
   background-color: #e6f7ff;
     margin-top: 1rem;
@@ -49,18 +44,15 @@ ul {
 }
 
 .in-progress {
-  /* background-color: #fffde7; */
   text-align: center;
 }
 
 .done {
   text-align: center;
-  /* background-color: #dff0d8; */
 }
 
 /* Task Styles */
 .task {
-  /* background-color: #e6f7ff; */
   margin-top: 1rem;
     display: flex;
     justify-content: space-between;
@@ -73,14 +65,6 @@ ul {
   max-height: fit-content;
   background-color: #e6f7ff;
 }
-/* .inputs{
-  display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    padding: 0.4rem;
-    align-items: center;
-    flex-wrap: wrap;
-} */
 
 .task-title {
   margin: 0;
@@ -102,7 +86,6 @@ button {
   padding: 5px 10px;
   border-radius: 3px;
   cursor: pointer;
-  /* margin-bottom: 1rem; */
 }
 
 button:hover {

@@ -7,9 +7,13 @@ const App = () => {
   const [inputTask, setInputTask] = useState('');
   const [inputDescription, setInputDesciption] = useState([])
 
+  //This function is used to add task and description 
+
   const addTask = (title, description) => {
     setTasks([...tasks, { id: Date.now(), title, description, status: 'pending' }]);
   };
+
+  //This function is used to move task from one status to another
 
   const moveTask = (id, newStatus) => {
     setTasks(
@@ -24,6 +28,9 @@ const App = () => {
       )
     );
   };
+
+
+  //This function is used to handle taskInput and description Input 
 
   const handleClick = () => {
     addTask(inputTask, inputDescription);
